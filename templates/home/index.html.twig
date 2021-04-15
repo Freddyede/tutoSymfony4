@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+
+ {% block javascripts %}
+
+ {% endblock %}
+{% block body %}
+    {% for pizza in ts %}
+        {{ pizza.age }}
+    {% endfor %}
+{% endblock %}
